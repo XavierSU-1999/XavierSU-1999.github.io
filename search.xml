@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>BLog测试</title>
+      <link href="/2024/07/21/2024-07-21/"/>
+      <url>/2024/07/21/2024-07-21/</url>
+      
+        <content type="html"><![CDATA[<ul><li>分割线测试</li></ul><hr><hr><ul><li>图片测试</li></ul><p><img src="/img/2001 A Space Odyssey02.png" alt="示例图片" style="zoom:50%;" /></p><ul><li><p>代码块测试</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">VSCode终端</span></span><br><span class="line">hexo clean; hexo s</span><br><span class="line">hexo clean; hexo g; hexo d</span><br><span class="line">git add .; git commit -m &quot;npm publish&quot;; npm version patch; </span><br><span class="line">git push</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_"># </span><span class="language-bash">Cmder终端</span></span><br><span class="line">hexo clean &amp;&amp; hexo s</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br><span class="line">git add . &amp;&amp; git commit -m &quot;npm publish&quot; &amp;&amp; npm version patch</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li><li><p>测试</p></li></ul><div class="code">你的一些代码...</div><script>你的一些代码...</script><ul><li>标题测试<h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1>一号标题<h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2>二号标题<h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3>三号标题</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建博客遇到的问题</title>
+      <link href="/2024/07/17/2024-07-17/"/>
+      <url>/2024/07/17/2024-07-17/</url>
+      
+        <content type="html"><![CDATA[<ul><li><code>_config.butterfly.yml</code> 文件中的 <code>footer</code> 项配置不完善</li><li><del><code>_config.butterfly.yml</code> 文件中的 <code>background</code> 项无法设置网站背景</del></li><li><del><code>_config.butterfly.yml</code> 文件中的 <code>font</code> 和 <code>blog_title_font</code> 两项无法修改字体</del></li><li><code>_config.butterfly.yml</code> 文件中的 <code>pjax</code></li><li><code>_config.butterfly.yml</code> 文件中的 <code>theme-color</code> 没有生效</li><li><code>_config.yml</code> 文件中的 <code>bdageitem</code> 没有提示</li><li><code>_config.yml</code> 文件中的 <code>runtime</code> 控件没有设置好</li><li><code>_config.yml</code> 文件中的 <code>magnet</code> 设置图标</li><li><code>_config.yml</code> 文件中的 <code>gitcalendar</code> 在转圈</li><li><code>_config.butterfly.yml</code> 文件中的 <code>social</code> 模块的QQ和微信无法链接</li><li>文章页局部 html 代码不渲染</li><li>阅读进度条无法调节字体大小</li><li>弹窗</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Blog </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tag1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
