@@ -1,4 +1,4 @@
-window.onscroll = percent;// 执行函数
+window.onscroll =  window.addEventListener('scroll',percent);// 执行函数
 // 页面百分比
 function percent() {
     let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
