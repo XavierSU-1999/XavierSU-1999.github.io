@@ -7,13 +7,13 @@ function debounce(fn, time) {
 }
 
 /** 监听copy事件 */
-document.addEventListener("copy", function(e){
-    //复制的内容
-    btf.snackbarShow('Copy Sucess! You are free to repost this article!', false, 3000)
-  })
+// document.addEventListener("copy", function(e){
+//     //复制的内容
+//     btf.snackbarShow('Copy Sucess! You are free to repost this article!', false, 3000)
+//   })
 
 
 function share(){
     new ClipboardJS(".share", { text: function () { return 'Title:' + document.title + '\nLink:' + window.location.origin + window.location.pathname } });
-    btf.snackbarShow('Copy Sucess! You are free to repost this article!', false, 3000)
+    btf.snackbarShow('You are free to repost this page anywhere!', false, 3000)
 }
