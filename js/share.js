@@ -7,10 +7,22 @@ function debounce(fn, time) {
 }
 
 /** 监听copy事件 */
-// document.addEventListener("copy", function(e){
-//     //复制的内容
-//     btf.snackbarShow('Copy Sucess! You are free to repost this article!', false, 3000)
-//   })
+// 复制提醒
+document.addEventListener("copy",function(e){
+    new Vue({
+      data:function(){
+        this.$notify({
+          title:"哎嘿！复制成功",
+          message:"若要转载请务必保留原文链接！猹分你个瓜！",
+          position: 'bottom-right',
+          offset: 50,
+          showClose: false,
+          type:"success"
+        });
+        return{visible:false}
+      }
+    })
+  })
 
 
 function share(){
