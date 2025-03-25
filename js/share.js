@@ -12,8 +12,8 @@ document.addEventListener("copy",function(e){
     new Vue({
       data:function(){
         this.$notify({
-          title:"Copy Sucess!",
-          message: false,
+          title:"Copy Sucess ✂",
+          message: "You are free to repost this part anywhere!",
           position: 'bottom-right',
           offset: 20,
           showClose: false,
@@ -27,5 +27,5 @@ document.addEventListener("copy",function(e){
 
 function share(){
     new ClipboardJS(".share", { text: function () { return 'Title:' + document.title + '\nLink:' + window.location.origin + window.location.pathname } });
-    btf.snackbarShow('You are free to repost this page anywhere!', false, 3000)
+    // btf.snackbarShow('You are free to repost this page anywhere!', false, 3000)
 }
